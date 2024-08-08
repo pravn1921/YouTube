@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="menu">
+      <img class="youtube-logo" src="icons/youtube-logo.svg" alt="youtube">
+    </div>
+    <div class="middle-section">
+      <input type="text" placeholder="Search" class="search-bar">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg" alt="search">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="voice search">
+        <div class="tooltip">Voice Search</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-button">
+        <img class="upload-icon" src="icons/upload.svg" alt="uploads">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="apps-button">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="apps">
+        <div class="tooltip">Apps</div>
+      </div>
+      <div class="notifications-count-container">
+        <img class="notification-icon" src="icons/notifications.svg" alt="notifications">
+        <div class="notifications-count">5</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <a href="https://praveenr.vercel.app/">
+        <img class="current-user-picture" src="channel/profile.png" alt="profile">
+      </a>
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="video-grid">
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/bike.jpg" alt="Biking">
+          <div class="video-time">15:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/bikec.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Offroading Adventure with BMW 1250GS in Desert!
+            </p>
+            <p class="video-author">
+              Limitless Rider
+            </p>
+            <p class="video-stats">
+              20M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/books.jpeg" alt="Biking">
+          <div class="video-time">9:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/bookc.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Best Books for Freshers to start hobbie of Reading Books
+            </p>
+            <p class="video-author">
+              Hobbiest
+            </p>
+            <p class="video-stats">
+              512K views &#183; 2 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/aqua.jpg" alt="Aquascaping">
+          <div class="video-time">12:40</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/aquac.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Iwagumi Scape | Aquascaping tutorial for Beginners
+            </p>
+            <p class="video-author">
+              Aqua Friend
+            </p>
+            <p class="video-stats">
+              2M views &#183; 2 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/drawing.jpg" alt="drawing">
+          <div class="video-time">7:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/drawingc.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Pencil Shading Techniques | Art learning for children
+            </p>
+            <p class="video-author">
+              Draw.io
+            </p>
+            <p class="video-stats">
+              51K views &#183; 7 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/messil.jpg" alt="drawing">
+          <div class="video-time">12:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/messimedia.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Argentina | Messi - INVINCIBLE | World Cup 2022 Film
+            </p>
+            <p class="video-author">
+              Messi Media
+            </p>
+            <p class="video-stats">
+              30M views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails//solocamping.jpg" alt="Camp">
+          <div class="video-time">11:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/campingc.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Solo Camping with my 4x4 Jeep | Amazon Forest
+            </p>
+            <p class="video-author">
+              Solo Camper
+            </p>
+            <p class="video-stats">
+              10M views &#183; 3 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/java.jpg" alt="Biking">
+          <div class="video-time">8:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/javac.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Beginner friendly Java tutorial to learn from Scratch
+            </p>
+            <p class="video-author">
+              Java Freak
+            </p>
+            <p class="video-stats">
+              400K views &#183; 10 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/football.jpg" alt="Biking">
+          <div class="video-time">7:37</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/foot.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Learn 5 EASY Skills | Simple Step By Step Football Skills Tutorial
+            </p>
+            <p class="video-author">
+              FootBall
+            </p>
+            <p class="video-stats">
+              100K views &#183; 1 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/jon.jpg" alt="Biking">
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/jon1.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Jon Snow | The Real North | Game Of Thrones
+            </p>
+            <p class="video-author">
+              Game Of Thrones
+            </p>
+            <p class="video-stats">
+              1M views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/ui.jpg" alt="Biking">
+          <div class="video-time">24:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/uil.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The UI/UX Crash Course for 2023 - Learn UI/UX Design
+            </p>
+            <p class="video-author">
+              UI/UX Designer
+            </p>
+            <p class="video-stats">
+              89K views &#183; 1 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/b.jpg" alt="Biking">
+          <div class="video-time">5:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/b1.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              5 Self-Improvement books that ACTUALLY WORKED!
+            </p>
+            <p class="video-author">
+              Book Keeper
+            </p>
+            <p class="video-stats">
+              600K views &#183; 10 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/cloud.jpg" alt="Biking">
+          <div class="video-time">30:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/cloud1.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Learn Characteristics of Cloud Computing with Examples 
+            </p>
+            <p class="video-author">
+              Cloud
+            </p>
+            <p class="video-stats">
+              45K views &#183; 3 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/fas.jpg" alt="Biking">
+          <div class="video-time">5:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/fas1.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Men's Street Style Fashion 2024 | Fashion Tips
+            </p>
+            <p class="video-author">
+              Men Streets
+            </p>
+            <p class="video-stats">
+              20K views &#183; 1 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- grid -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/cric.jpg" alt="Biking">
+          <div class="video-time">19:37</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile" src="channel/cric1.jpg" alt="channel">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Top 10 Amaizing Moments in Cricket History | Cricket best moments
+            </p>
+            <p class="video-author">
+              Super Cricket
+            </p>
+            <p class="video-stats">
+              899K views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
